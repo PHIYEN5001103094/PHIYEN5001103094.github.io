@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.left-column {
+    width: 40%;
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+.right-column {
+    width: 60%;
+    padding: 20px;
+}
+.profile-picture{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h1, h2 {
+    margin: 0 0 20px;
+    color: #ffffff;
+}
+h1 {
+    font-size: 24px;
+}
+h2 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+.section-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2e7d32;
+    font-size: 18px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.skill-bar {
+    height: 10px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.skill-bar-inner {
+    height: 100%;
+    width: 70%;
+    background: #5ae737;
+}
+.contact-info, .objective, .skills, .interests {
+    margin-bottom: 20px;
+}
+.right-section {
+    margin-bottom: 20px;
+padding-left: 20px; /* Space between the line and content */
+border-left: 4px solid #2e7d32; /* Vertical green line */
+padding-left: 20px; /* Add padding to space out the content from the line */
+}
+.section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section-line {
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+}
